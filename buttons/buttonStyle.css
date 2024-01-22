@@ -1,0 +1,96 @@
+.subscribe
+{
+    background-color: rgb(188, 47, 47);
+    height: 35px;
+    width: 100px;
+    border: 0px;
+    border-radius: 2px;
+    cursor: pointer;
+    color: white;
+    transition: opacity 1s;
+}
+.subscribe:hover
+{
+    opacity: 0.8;
+}
+.subscribe:active
+{
+    opacity: 0.5;
+}
+.join
+{
+    background-color:white;
+    border-width: 1px;
+    border-color: rgb(86, 128, 227);
+    color:rgb(86, 128, 227);;
+    border-style: solid;
+    height: 35px;
+    width: 60px;
+    margin-left: 10px;
+    transition: color 0.15s , height 0.15s ,width 0.15s;
+}
+.join:hover
+{
+    background-color: rgb(86, 128, 227);;
+    color: white;
+    transition: color 0.15s;
+    height: 40px;
+    width: 120px;
+    transition: height 0.15s ,width 0.15s
+}
+.join:active
+{
+    opacity: 0.5;
+}
+.tweet
+{
+    background-color: rgb(12, 124, 210);
+    border: 0px;
+    border-radius: 15px;
+    height: 25px;
+    width: 60px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.request
+{
+    background-color: black;
+    color: white ;
+    height: 25px;
+    width: 120px;
+    border: 0px;
+    cursor: pointer;
+}
+.signup
+{
+    margin: 10px;
+    height: 25px;
+    width: 80px;
+    color: white;
+    background-color: rgb(109, 211, 98);
+    border: 0;
+    border-radius: 5px;
+}
+.company
+{
+    width: 200px;
+    color: white;
+    background-color: rgb(10,102, 194);
+    border: 0px;
+    border-radius:12px;
+    height: 23px;
+
+}
+.save
+{
+    margin-left: 10px;
+    border-radius: 12px;
+    border-color: rgb(10,102, 194);;
+    border-width: 1px;
+    width: 60px;
+    height: 22px;
+    color: rgb(10,102, 194);;
+    background-color: white;
+
+}

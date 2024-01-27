@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .click {
+            height: 35px;
+            width: 100px;
+            background-color: rgb(45, 106, 176);
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+            border-width: 0px;
+        }
+        .start
+        {
+            height: 35px;
+            width: 100px;
+            background-color: rgb(45, 106, 176);
+            color: white;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-size: 20px;
+            border-width: 0px;
+        }
+        .start:active
+        {
+            opacity:0.6;
+        }
+
+        .click:active {
+            opacity: 0.6;
+        }
+    </style>
+    <script  >
+        let a = 0;
+let timer;
+let result;
+function start() {
+    let sec = 0;
+    timer = setInterval(() => {
+        document.getElementById("timer").innerText = sec;
+        sec++;
+        if (sec == 10) {
+            clearInterval(timer);
+            document.getElementById("timer").innerText = 0;
+            result = a/sec;
+            document.getElementById("result").innerText ="Your Click per second is  " +result+" per second";
+            sec = 0;
+            a = 0 ;
+        }
+    }, 1000)
+
+}
+function increment() {
+    a++;
+    document.getElementById("turzo").innerText = a;
+}
+    </script>
+</head>
+
+<body>
+    <h1>Click Per Second Counter</h1>
+    <button class="start" onclick="start()">Start</button>
+    <button class="click" onclick="increment() " >Click</button>
+    <br>
+    <h1 id="timer"> 0 </h1>
+    <h1 id="turzo">1</h1>
+    <h1 id="result"></h1>
+
+</body>
+
+</html>

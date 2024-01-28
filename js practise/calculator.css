@@ -1,0 +1,25 @@
+.variable1,.variable2
+{
+    display: inline;
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+}
+.add,.substract,.multiply,.divide
+{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(198, 98, 98);
+    border-width: 0px;
+    border-radius: 10px;
+    transition: height 0.5s , width 0.5s;
+    cursor: pointer;
+}
+.add,.substract,.multiply,.divide:active
+{
+    height: 30px;
+    width: 100px;
+    transition: height 0.13s , width 0.13s;
+}
+
+

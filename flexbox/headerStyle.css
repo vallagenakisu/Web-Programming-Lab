@@ -1,0 +1,44 @@
+.main-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    background-color: rgb(123, 64, 123);
+    align-items: center;
+}
+
+.home-button
+{
+
+    background-color: rgb(123, 64, 123);
+    border: 0px;
+    color: white;
+    margin-left: 10px;
+}
+
+.search {
+    flex: 1;
+    max-width: 320px;
+}
+
+.download-button {
+    background-color: rgb(123, 64, 123);
+    border-width: 1px;
+    border-radius: 2px;
+    border-style: solid;
+    color: white;
+    border-color: white;
+    margin-right: 10px;
+    margin-left: 100px;
+    height: 32px;
+    width: 90px;
+
+}
+
+.search-box {
+    height: 30px;
+    width: 380px;
+    border-radius: 20px;
+    border: 0px;
+
+}

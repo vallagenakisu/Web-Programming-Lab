@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="tooltip.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Tanzir Mannan Turzo </div>
+        <div>
+            <ul class="nav-links">
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#experience">Experience</a></li>
+                <li> <a href="#project">Project</a></li>
+                <li> <a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- hamburger-nav -->
+    <nav id="hamburger-nav">
+        <div class="logo">Tanzir Mannan Turzo</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li> <a href="#about" onclick="toggleMenu()">About</a></li>
+                <li> <a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li> <a href="#project" onclick="toggleMenu()">Project</a></li>
+                <li> <a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- profile section -->
+    <section id="profile">
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="profile-picture.png" alt="My Profile Picture">
+            </div>
+            <div class="section__text">
+                <p class="section__text__p1" >Hello, I'm</p>
+                <h1 class="title">Tanzir Mannan Turzo</h1>
+                <p class="section__text_p2">Tech Enthusiast</p>
+                <div class="btn-container">
+                    <button class="btn btn-color-1" onclick="window.open('profile-picture.png')" >Download CV</button>
+                    <button class="btn btn-color-2" onclick="window.location.href('#contact')" >Contact Info</button>
+                </div>
+                <div id="socials-container" >
+                    <!-- linkedin image -->
+                    <img src="linkedin.png" alt="my Linkedin"
+                    class="icon"
+                    onclick="location.href='https://www.linkedin.com/in/tanzir-mannan-turzo-b3b372227/' "
+                    >
+                    <img src="facebook.png" alt="my facebook"
+                    class="icon"
+                    onclick="location.href='https://www.facebook.com/tanzirmannan.turzo' "
+                    >
+                    <img src="github.png" alt="my github"
+                    class="icon"
+                    onclick="location.href='https://github.com/vallagenakisu'"
+                    >
+                    
+
+                    <!-- facebook image -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
+

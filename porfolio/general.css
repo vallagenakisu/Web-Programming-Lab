@@ -52,3 +52,9 @@ section
     box-sizing: border-box;
     min-height: fit-content;
 } 
+article
+{
+    display : flex;
+    gap : 1rem;
+    padding : 0.3rem;
+}

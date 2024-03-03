@@ -110,6 +110,7 @@ nav,
 .section-container
 {
     display: flex;
+    flex : 1;
     gap: 3rem;
 }
 #profile
@@ -211,4 +212,74 @@ nav,
     background-color:  white;
     color:rgb(53, 53, 53);
     font-weight: 600;
+}
+.about-details-container img
+{
+    height: 30px;
+    margin: 0px;
+}
+ 
+/* ABOUT SECTION */
+#about
+{
+    position: relative;
+}
+.about-containers
+{
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex:1;
+}
+.about-details-container
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+.about-pic
+{
+    border-radius: 2rem;
+}
+.about-grid
+{
+    display : flex;
+    flex-direction : column ;
+    justify-content : center; 
+    gap : 2rem;
+}
+.details-container 
+{
+    padding : 3rem;
+    background : white;
+    flex : 1 ;
+    border-radius : 2rem;
+    border : rgb(53,53,53) 0.1rem solid;
+    text-align : center; 
+} 
+
+/* Project Section */
+.color-container 
+{
+    border-color: rgb(163,163,163);
+    background: rgb(250, 250, 250);
+}
+.project-img
+{
+    border-radius: 2rem;
+    width: 90%;
+    height: 90%;
+}
+.project-title
+{
+    margin : 1rem;
+    color: black;
+}
+.experience-details-container
+{
+    flex: 1;
+    display: flex;
+
 }

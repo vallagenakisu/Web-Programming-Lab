@@ -1,0 +1,38 @@
+.main
+{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 200px;
+    height: 1000px;
+    width: 1000px;
+}
+.Yes 
+{    
+    margin-top: 300px;
+    margin-left: 200px;
+}
+.No 
+{
+    margin-top: 320px;
+    margin-left: 50px;
+}
+.button-yes
+{
+    height: 100px;
+    width: 120px;
+    background-color: rgb(70, 215, 57);
+    color: azure;
+    font-family: sans-serif;
+    font-size: 30px;
+    cursor: pointer;
+}
+.button-no
+{
+    height: 60px;
+    width: 80px;
+    background-color: rgb(214, 16, 16);
+    color: azure;
+    font-family: sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
